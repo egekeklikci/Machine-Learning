@@ -121,7 +121,8 @@ if __name__ == "__main__":
     for _ in range(max_iteration):
         # reduce the epsilon every 1000 episodes by eps_reduce_factor
         if _ % 1000 == 0:
-            print('Episode: ' + str(_))
+            if _ % 5000 == 0:
+                print('Episode: ' + str(_))
             epsilon -= eps_reduce_factor
         # copy new game
         game = empty_game.copy()
@@ -202,11 +203,16 @@ if __name__ == "__main__":
             break
 
     # print how many moves has been made by the mouse when he learned
-    print(counter)
+    print(str(counter)+" moves made")
     # print the last q table values
     for i in range(n):
+        print("Left,  Up,    Right, Down", end='   /  ')
+    print()
+    for i in range(n):
         for j in range(n):
-            print(qtable[i*n+j], end='  ')
+            for k in range(4):
+                print("%.2f" % qtable[i*n+j][k], end='  ')
+            print("/", end='  ')
         print()
     # check if the position is optimal
     if counter == n*2-2:
