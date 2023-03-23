@@ -14,13 +14,27 @@ Learning rate or `alpha is 0.3`\
 Discount rate or `gamma is 0.9`\
 How many times the game will be played or `max_iteration is 100000`
 ### Starting Q Table
+![alt text](https://github.com/egekeklikci/Machine-Learning/blob/d90bf241803c581ecc8f8f29791f9c604d2e8ece/Blind%20Mouse%20Chasing%20Cheese/photos/first-q-table.png)
 ### Ending Q Table
+![alt text](https://github.com/egekeklikci/Machine-Learning/blob/e82b959c7143e604b74c20bebdaf0090e99950c6/Blind%20Mouse%20Chasing%20Cheese/photos/q_table.png)
 ## Game
 First state of the game\
-Last state of the game
+<img src="https://github.com/egekeklikci/Machine-Learning/blob/e82b959c7143e604b74c20bebdaf0090e99950c6/Blind%20Mouse%20Chasing%20Cheese/photos/start.png" width="366" height="164">
+
+Last state of the game\
+<img src="https://github.com/egekeklikci/Machine-Learning/blob/e82b959c7143e604b74c20bebdaf0090e99950c6/Blind%20Mouse%20Chasing%20Cheese/photos/end.png" width="366" height="164">
 ## Output
 Every 5,000th Episode\
+<img src="https://github.com/egekeklikci/Machine-Learning/blob/d90bf241803c581ecc8f8f29791f9c604d2e8ece/Blind%20Mouse%20Chasing%20Cheese/photos/Episode.png" width="123" height="110">
+
 Every step of the last game\
+<img src="https://github.com/egekeklikci/Machine-Learning/blob/d90bf241803c581ecc8f8f29791f9c604d2e8ece/Blind%20Mouse%20Chasing%20Cheese/photos/Step.png" width="394" height="203">
+
 How many moves have been made\
+![alt text](https://github.com/egekeklikci/Machine-Learning/blob/d90bf241803c581ecc8f8f29791f9c604d2e8ece/Blind%20Mouse%20Chasing%20Cheese/photos/Moves%20made.png)
+
 Last status of the Q table\
-If the solution is optimal
+![alt text](https://github.com/egekeklikci/Machine-Learning/blob/e82b959c7143e604b74c20bebdaf0090e99950c6/Blind%20Mouse%20Chasing%20Cheese/photos/q_table.png)
+
+If the solution is optimal\
+![alt text](https://github.com/egekeklikci/Machine-Learning/blob/d90bf241803c581ecc8f8f29791f9c604d2e8ece/Blind%20Mouse%20Chasing%20Cheese/photos/Optimal.png)
